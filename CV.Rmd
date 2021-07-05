@@ -1,0 +1,91 @@
+---
+name: Mohammed
+surname: Hamdy
+position: "Data Analyst"
+address: "Cairo, Egypt"
+phone: +2 0111 77 16 889
+email: "mhamdy.res@gmail.com"
+linkedin: mmhamdy
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 6699CC
+aboutme: "Detail-oriented Data Analyst with 5+ years of experience in Scientific Research and strong technical skills of data processing,and data visualization."
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(tidyverse)
+library(vitae)
+
+source(file = here::here("R","Data.R"))
+```
+
+# Experience
+
+```{r experience}
+experience %>% 
+  detailed_entries(
+    with = title,
+    what = company,
+    why = details,
+    when = glue::glue("{startMonth} {startYear} - {endMonth} {endYear}"),
+    where = where
+  )
+```
+
+# Education
+
+```{r education}
+education %>% 
+  detailed_entries(
+    with = degree,
+    what = institution,
+    when = glue::glue("{startYear} - {endYear}"),
+    where = where
+  )
+```
+
+# Skills
+
+```{r skills}
+skills %>% 
+  detailed_entries(
+    with = type,
+    what = skill
+  )
+```
+
+\pagebreak
+
+# Projects
+
+```{r projects}
+projects %>% 
+  detailed_entries(
+    with = title,
+    what = tools,
+    why = details
+  )
+```
+
+# Training
+
+```{r training}
+training %>% 
+  detailed_entries(
+    with = title,
+    what = organization,
+    when = issueDate
+  )
+```
+
+# Languages
+
+```{r languages}
+languages %>% 
+  detailed_entries(
+    with = language,
+    what = level
+  )
+```
+
