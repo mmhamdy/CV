@@ -51,7 +51,7 @@ education %>%
 skills %>% 
   detailed_entries(
     with = type,
-    what = skill
+    why = skill
   )
 ```
 

@@ -23,7 +23,9 @@ education <- tribble(
 
 skills <- tribble(
   ~type, ~skill,
-  "Programming Languages", "R, Python, SQL",
+  "Programming Languages", "Python : Data processing with numpy and pandas; Data visualization with matplotlib and seaborn; Modeling with statsmodels and scikit-learn",
+  "Programming Languages", "R : Data processing with dplyr and Tidyverse tools; Data visualization with ggplot2; Modeling with caret",
+  "Programming Languages", "SQL : Good command of RDBMS such as PostgreSQL, MySQL, and SQLite",
   "Software", "SPSS, Tableau, Excel",
   "Version Control", "Git"
 )
