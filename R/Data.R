@@ -26,17 +26,19 @@ skills <- tribble(
   "Programming Languages", "Python : Data processing with numpy and pandas; Data visualization with matplotlib and seaborn; Modeling with statsmodels and scikit-learn",
   "Programming Languages", "R : Data processing with dplyr and Tidyverse tools; Data visualization with ggplot2; Modeling with caret",
   "Programming Languages", "SQL : Good command of RDBMS such as PostgreSQL, MySQL, and SQLite",
-  "Software", "SPSS, Tableau, Excel",
+  "Software", "Excel : Data Analysis Toolpak; pivot tables; Macros; and VBA",
+  "Software", "SPSS : Conducting Statistical tests; and Statistical Modeling",
+  "Software", "Tableau : Data visualization; quering data from Databases and spreadsheets",
   "Version Control", "Git"
 )
 
 projects <- tribble(
   ~title, ~tools, ~details,
-  "Communicating data findings from the analysis of Prosper's Loan data", "Python (numpy, pandas, matplotlib, seaborn)", NA,
-  "Wrangling, analyzing, and visualizing a tweet archive from Twitter", "Python (numpy, pandas, matplotlib, seaborn, requests, BeautifulSoup, tweepy, json, sqlalchemy)", NA,
-  "Analyzing A/B Test Results for an e-commerce website", "Python (numpy, pandas, statsmodels, matplotlib)", NA,
-  "Investigating 10,000 movies collected from The Movie Database (TMDb)", "Python (numpy, pandas, matplotlib, seaborn)", NA,
-  "Exploring Weather Trends In Cairo", "R (dplyr, ggplot2, tidyr, readr, zoo)", NA
+  "Communicating data findings from the analysis of Prosper's Loan data", "Python (numpy, pandas, matplotlib, seaborn)", "Performing an analysis of information regarding more than 100,000 loans on Prosper with more than 80 features. features were processed and cleaned in order to gain an insight and communicate the findings concerning the features of interest such as : loan amount, interest rate, and default.",
+  "Wrangling, analyzing, and visualizing a tweet archive from Twitter", "Python (numpy, pandas, matplotlib, seaborn, requests, BeautifulSoup, tweepy, json, sqlalchemy)", "Wrangling Twitter data that were acquired through Twitter api to create interesting and analyses and visualizations.",
+  "Analyzing A/B Test Results for an e-commerce website", "Python (numpy, pandas, statsmodels, matplotlib)", "Analyzing the results of an A/B test for an e-commerce website. The goal is to help the company understand if they should implement the new page, keep the old page, or perhaps run the experiment longer to make their decision.",
+  "Investigating 10,000 movies collected from The Movie Database (TMDb)", "Python (numpy, pandas, matplotlib, seaborn)", "Performing Exploratory data analysis of the data from The Movie Database (TMDb) to answer some chosen questions about movies and genres",
+  "Exploring Weather Trends In Cairo", "R (dplyr, ggplot2, tidyr, readr, zoo)", "Analyzing local and global temperature data and comparing the temperature trends in Cairo to overall global temperature trends."
 )
 
 training <- tribble(
