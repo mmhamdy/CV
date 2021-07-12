@@ -58,3 +58,9 @@ languages <- tribble(
   "Arabic", "Native Proficiency"
 )
 
+interests <- tribble(
+  ~interest,
+  "Applications of Artificial Intelligence",
+  "Organizing Book Clubs",
+  "Board games"
+)

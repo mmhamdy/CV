@@ -89,3 +89,12 @@ languages %>%
   )
 ```
 
+# Interests
+
+```{r}
+interests %>% 
+  detailed_entries(
+    what = interest
+  )
+```
+
