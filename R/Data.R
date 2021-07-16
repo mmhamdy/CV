@@ -28,7 +28,7 @@ skills <- tribble(
   "Programming Languages", "SQL : Good command of RDBMS such as PostgreSQL, MySQL, and SQLite",
   "Software", "Excel : Data Analysis Toolpak; pivot tables; Macros; and VBA",
   "Software", "SPSS : Conducting Statistical tests; and Statistical Modeling",
-  "Software", "Tableau : Data visualization; quering data from Databases and spreadsheets",
+  "Software", "Tableau : Data visualization; querying data from Databases and spreadsheets",
   "Version Control", "Git"
 )
 
