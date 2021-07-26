@@ -1,5 +1,8 @@
 experience <- tribble(
   ~title, ~company, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~details,
+  "Freelance Data Analyst", "Self-employed", "May", 2020, "July", 2021, "Cairo", "Statistical testing and reporting services.",
+  "Freelance Data Analyst", "Self-employed", "May", 2020, "July", 2021, "Cairo", "Model testing and deployment services.",
+  "Freelance Data Analyst", "Self-employed", "May", 2020, "July", 2021, "Cairo", "Data processing and data visualization services.",
   "Research Lab Manager", "Natural Wellness Group", "January", 2019, "February", 2020, "Nasr City", "Creating study protocols and study plans.",
   "Research Lab Manager", "Natural Wellness Group", "January", 2019, "February", 2020, "Nasr City", "Using statistical tools to identify, analyze, and interpret patterns in collected data.",
   "Research Lab Manager", "Natural Wellness Group", "January", 2019, "February", 2020, "Nasr City", "Preparing final analysis reports, and Using data visualization tools and techniques to communicate findings.",
@@ -43,6 +46,7 @@ projects <- tribble(
 
 training <- tribble(
   ~title, ~organization, ~issueDate,
+  "Cluster Analysis in R", "DataCamp", "July 2021",
   "Modeling with Data in the Tidyverse", "DataCamp", "June 2021",
   "Introduction to Machine Learning", "Duke University via Coursera", "May 2021",
   "ARIMA Models in R", "DataCamp", "April 2021",

@@ -8,7 +8,7 @@ email: "mhamdy.res@gmail.com"
 linkedin: mmhamdy
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: 6699CC
-aboutme: "Detail-oriented Data Analyst with 5+ years of experience in Scientific Research and strong technical skills of data processing,and data visualization."
+aboutme: "Data Analyst with 5 years of hands-on experience in data collection, data processing, and data visualization. Strong statistical knowledge and comforable with applying common statistical techniques in different software packages."
 output: vitae::awesomecv
 ---
 
@@ -55,7 +55,6 @@ skills %>%
   )
 ```
 
-\pagebreak
 
 # Projects
 
@@ -78,6 +77,8 @@ training %>%
     when = issueDate
   )
 ```
+
+\pagebreak
 
 # Languages
 
