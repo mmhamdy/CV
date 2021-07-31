@@ -1,8 +1,8 @@
 experience <- tribble(
   ~title, ~company, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~details,
-  "Freelance Data Analyst", "Self-employed", "May", 2020, "July", 2021, "Cairo", "Statistical testing and reporting services.",
-  "Freelance Data Analyst", "Self-employed", "May", 2020, "July", 2021, "Cairo", "Model testing and deployment services.",
-  "Freelance Data Analyst", "Self-employed", "May", 2020, "July", 2021, "Cairo", "Data processing and data visualization services.",
+  #"Freelance Data Analyst", "Self-employed", "May", 2020, "July", 2021, "Cairo", "Statistical testing and reporting services.",
+  #"Freelance Data Analyst", "Self-employed", "May", 2020, "July", 2021, "Cairo", "Model testing and deployment services.",
+  #"Freelance Data Analyst", "Self-employed", "May", 2020, "July", 2021, "Cairo", "Data processing and data visualization services.",
   "Research Lab Manager", "Natural Wellness Group", "January", 2019, "February", 2020, "Nasr City", "Creating study protocols and study plans.",
   "Research Lab Manager", "Natural Wellness Group", "January", 2019, "February", 2020, "Nasr City", "Using statistical tools to identify, analyze, and interpret patterns in collected data.",
   "Research Lab Manager", "Natural Wellness Group", "January", 2019, "February", 2020, "Nasr City", "Preparing final analysis reports, and Using data visualization tools and techniques to communicate findings.",
