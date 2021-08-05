@@ -32,7 +32,7 @@ skills <- tribble(
   "Software", "Excel : Data Analysis Toolpak; pivot tables; Macros; and VBA",
   "Software", "SPSS : Conducting Statistical tests; and Statistical Modeling",
   "Software", "Tableau : Data visualization; querying data from Databases and spreadsheets",
-  "Version Control", "Git"
+  #"Version Control", "Git"
 )
 
 projects <- tribble(
